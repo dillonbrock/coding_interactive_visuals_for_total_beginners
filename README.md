@@ -1,1 +1,1 @@
-# coding_interactive_visuals_for_total_beginners
+# Coding Interactive Visuals for Total Beginners
