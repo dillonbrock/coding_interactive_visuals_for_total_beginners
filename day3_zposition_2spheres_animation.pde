@@ -14,13 +14,13 @@ void draw(){
   
   zMove = (zMove + 2) % width;
   println(zMove);
-  zString = "z position = + " + str(zMove);
+  zString = "z position\n = + " + str(zMove);
   
     pushMatrix();
     translate(width/2 - 150, height/2, zMove);
     sphere(40);
     translate(50, 0);
-    textSize(8);
+    textSize(14);
     text(zString, 0, 0);
     translate(-70, -50, 0);
     text(xPos1, 0, 0);
