@@ -6,6 +6,7 @@ void setup() {
 
 void draw() {
   
+  //Where Are We
   strokeWeight(12);
   //x axis is red (positive x direction only)
   stroke(200, 0, 0);
