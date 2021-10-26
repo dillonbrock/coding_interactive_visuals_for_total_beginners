@@ -17,5 +17,7 @@ void draw() {
   //z axis is blue (positive z direction only)
   stroke(0, 0, 200);
   line(0, 0, 0, 0, 0, 500);
-
+  //reset stroke weight and stroke color
+  strokeWeight(1)
+  stroke(0);
 }
